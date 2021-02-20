@@ -38,3 +38,9 @@ p {
   font-family: Proxima Nova;
   src: url(fonts/Mark-Simonson-Proxima-Nova-ScOsf-Extra-Condensed-Thin.otf);
 }
+
+@media only screen and (max-width: 1060px) {
+  html {
+    width: 100%;
+  }
+}
