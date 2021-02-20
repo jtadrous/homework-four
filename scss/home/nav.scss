@@ -1,7 +1,7 @@
 /* styling for the nav bar at the top of the page */
 nav {
-  width: 980px;
-  height: 60px;
+  max-width: 980px;
+  height: auto;
   margin: 0 auto;
   border-bottom: $white solid 2px;
   display: flex;
