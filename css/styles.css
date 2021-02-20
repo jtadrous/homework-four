@@ -39,11 +39,6 @@ p {
   font-family: Proxima Nova;
   src: url(fonts/Mark-Simonson-Proxima-Nova-ScOsf-Extra-Condensed-Thin.otf);
 }
-@media only screen and (max-width: 1060px) {
-  html {
-    width: 100%;
-  }
-}
 /* styling for the hero image at the top of the page */
 .hero {
   max-width: 1280px;
@@ -82,15 +77,6 @@ p {
   font-family: Gill Sans Regular;
 }
 
-@media only screen and (max-width: 1060px) {
-  .hero {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
 /* styling for the promo tours cards */
 .promo-tours {
   width: 1280px;
@@ -257,11 +243,6 @@ footer .icons {
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
-    /*.promo1,
-    .promo2,
-    .promo3 {
-      margin-bottom: 30px;
-    }*/
   }
 }
 /* styling for the nav bar at the top of the page */
