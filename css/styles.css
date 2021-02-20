@@ -180,6 +180,14 @@ footer .icons {
   width: 30%;
 }
 
+@media only screen and (max-width: 1060px) {
+  footer {
+    min-width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 .booking-form {
   max-width: 825px;
   min-height: 1050px;

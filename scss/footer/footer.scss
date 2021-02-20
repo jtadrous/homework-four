@@ -22,3 +22,12 @@ footer {
     width: 30%;
   }
 }
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    min-width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
