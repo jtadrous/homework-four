@@ -77,6 +77,14 @@ p {
   font-family: Gill Sans Regular;
 }
 
+@media only screen and (max-width: 1060px) {
+  .hero {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+  }
+}
 /* styling for the promo tours cards */
 .promo-tours {
   width: 1280px;
@@ -285,5 +293,6 @@ nav .links #last {
     flex-wrap: nowrap;
     padding-left: 0px;
     padding-right: 0px;
+    margin: auto;
   }
 }
