@@ -77,7 +77,7 @@ p {
   font-family: Gill Sans Regular;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1060px) {
   .hero {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -146,12 +146,13 @@ p {
 
 @media only screen and (max-width: 1060px) {
   .promo-tours {
-    width: 100%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     height: auto;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     margin: -50px auto 0 auto;
-    align-items: center;
   }
   .promo-tours .promo1,
 .promo-tours .promo2,
@@ -181,13 +182,16 @@ footer .icons {
   width: 30%;
 }
 
-/*@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1060px) {
   footer {
-    width: 100%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
     padding-left: 0px;
     padding-right: 0px;
   }
-}*/
+}
 .booking-form {
   max-width: 825px;
   min-height: 1050px;
@@ -254,7 +258,9 @@ footer .icons {
 
 @media only screen and (max-width: 1060px) {
   .booking-form {
-    width: 70%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     padding-left: 0px;

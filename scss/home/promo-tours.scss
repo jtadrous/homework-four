@@ -69,12 +69,11 @@
 
 @media only screen and (max-width: 1060px) {
   .promo-tours {
-    width: 100%;
+    width: fit-content;
     height: auto;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     margin: -50px auto 0 auto;
-    align-items: center;
 
     .promo1,
     .promo2,

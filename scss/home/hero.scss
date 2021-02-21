@@ -40,10 +40,9 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1060px) {
   .hero {
     width: fit-content;
-    //min-width: 800px;
     min-height: 550px;
   }
 }
