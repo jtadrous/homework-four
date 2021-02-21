@@ -162,7 +162,7 @@ p {
 }
 footer {
   max-width: 1280px;
-  height: auto;
+  min-height: 100px;
   margin: 0 auto;
   background-color: #79addc;
   color: #fff;
@@ -256,7 +256,7 @@ footer .icons {
 @media only screen and (max-width: 1060px) {
   .booking-form {
     width: 70%;
-    height: auto;
+    display: flex;
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
