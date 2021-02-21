@@ -2,8 +2,7 @@
 .hero {
   width: 100%;
   min-width: 650px;
-  max-height: 550px;
-  min-height: 500px;
+  height: 500px;
   margin: 0 auto; /* only works if you have a width defined */
   background-image: linear-gradient(to right, $overlay-black, $overlay-black),
     url(../images/hero.jpg);

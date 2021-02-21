@@ -43,8 +43,7 @@ p {
 .hero {
   width: 100%;
   min-width: 650px;
-  max-height: 550px;
-  min-height: 500px;
+  height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
@@ -143,12 +142,13 @@ p {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: -50px auto 0 auto;
+    align-items: center;
   }
   .promo-tours .promo1,
 .promo-tours .promo2,
 .promo-tours .promo3 {
+    justify-content: center;
     margin-bottom: 30px;
   }
 }
@@ -315,6 +315,5 @@ nav .links #last {
     min-width: 620px;
     height: auto;
     flex-wrap: nowrap;
-    margin: 0 30px;
   }
 }
