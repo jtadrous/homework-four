@@ -147,7 +147,7 @@ p {
 
 @media only screen and (max-width: 1060px) {
   .promo-tours {
-    min-width: 800px;
+    width: 100%;
     height: auto;
     flex-direction: column;
     display: flex;
