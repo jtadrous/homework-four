@@ -41,7 +41,8 @@ p {
 }
 /* styling for the hero image at the top of the page */
 .hero {
-  width: 1280px;
+  max-width: 1280px;
+  min-width: 800px;
   height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
@@ -77,12 +78,12 @@ p {
   font-family: Gill Sans Regular;
 }
 
-@media only screen and (max-width: 1060px) {
+/*@media only screen and (max-width: 1060px) {
   .hero {
     min-width: 800px;
     min-height: 550px;
   }
-}
+}*/
 /* styling for the promo tours cards */
 .promo-tours {
   width: 1280px;
@@ -157,6 +158,7 @@ p {
 }
 footer {
   max-width: 1280px;
+  min-width: 800px;
   min-height: 100px;
   margin: 0 auto;
   background-color: #79addc;
@@ -179,7 +181,6 @@ footer .icons {
 
 @media only screen and (max-width: 1060px) {
   footer {
-    min-width: 800px;
     height: auto;
   }
 }
