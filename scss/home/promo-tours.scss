@@ -69,8 +69,8 @@
 
 @media only screen and (max-width: 900px) {
   .promo-tours {
-    //width: 800px;
-    //height: auto;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
