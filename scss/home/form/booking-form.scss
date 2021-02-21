@@ -38,24 +38,23 @@
     .four,
     .five {
       display: flex;
-      flex-direction: row;
       justify-content: space-between;
       margin-bottom: 20px;
     }
 
     #name,
     #country {
-      width: 44%;
+      min-width: 44%;
     }
 
     #email,
     #hotel {
-      width: 54%;
+      min-width: 54%;
     }
 
     #checkin,
     #checkout {
-      width: 85%;
+      min-width: 85%;
       float: right;
     }
 
@@ -75,27 +74,20 @@
 @media only screen and (max-width: 1060px) {
   .booking-form {
     min-width: 650px;
-    display: flex;
-    flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    label {
-      display: inline;
-    }
 
     .one,
     .two,
     .three,
     .four,
     .five {
-      display: flex;
       flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    #name,
+    #country {
       margin-bottom: 20px;
     }
 
@@ -105,9 +97,7 @@
     #hotel,
     #checkin,
     #checkout {
-      width: 70%;
-      break-after: column;
-      display: block;
+      width: 100%;
     }
   }
 }

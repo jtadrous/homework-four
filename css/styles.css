@@ -211,21 +211,20 @@ footer .icons {
 .booking-form form .four,
 .booking-form form .five {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 .booking-form form #name,
 .booking-form form #country {
-  width: 44%;
+  min-width: 44%;
 }
 .booking-form form #email,
 .booking-form form #hotel {
-  width: 54%;
+  min-width: 54%;
 }
 .booking-form form #checkin,
 .booking-form form #checkout {
-  width: 85%;
+  min-width: 85%;
   float: right;
 }
 .booking-form form #submit {
@@ -242,25 +241,19 @@ footer .icons {
 @media only screen and (max-width: 1060px) {
   .booking-form {
     min-width: 650px;
-    display: flex;
-    flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
-  }
-  .booking-form form {
-    display: flex;
-    flex-direction: column;
-  }
-  .booking-form label {
-    display: inline;
   }
   .booking-form .one,
 .booking-form .two,
 .booking-form .three,
 .booking-form .four,
 .booking-form .five {
-    display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .booking-form #name,
+.booking-form #country {
     margin-bottom: 20px;
   }
   .booking-form #name,
@@ -269,9 +262,7 @@ footer .icons {
 .booking-form #hotel,
 .booking-form #checkin,
 .booking-form #checkout {
-    width: 70%;
-    break-after: column;
-    display: block;
+    width: 100%;
   }
 }
 /* styling for the nav bar at the top of the page */
