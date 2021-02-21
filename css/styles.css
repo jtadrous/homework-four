@@ -149,9 +149,7 @@ p {
   .promo-tours {
     width: 100%;
     height: auto;
-    margin: auto;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
   }
   .promo-tours .promo1,
