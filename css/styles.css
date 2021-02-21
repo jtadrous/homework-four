@@ -42,6 +42,7 @@ p {
 /* styling for the hero image at the top of the page */
 .hero {
   max-width: 1280px;
+  min-width: 800px;
   min-height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
@@ -80,7 +81,7 @@ p {
 @media only screen and (max-width: 1060px) {
   .hero {
     width: 100%;
-    margin: auto;
+    min-height: 550px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -161,7 +162,7 @@ p {
 }
 footer {
   max-width: 1280px;
-  min-height: 100px;
+  height: auto;
   margin: 0 auto;
   background-color: #79addc;
   color: #fff;
@@ -181,14 +182,13 @@ footer .icons {
   width: 30%;
 }
 
-@media only screen and (max-width: 1060px) {
+/*@media only screen and (max-width: 1060px) {
   footer {
     width: 100%;
-    height: auto;
     padding-left: 0px;
     padding-right: 0px;
   }
-}
+}*/
 .booking-form {
   max-width: 825px;
   min-height: 1050px;
@@ -302,6 +302,6 @@ nav .links #last {
     flex-wrap: nowrap;
     padding-left: 0px;
     padding-right: 0px;
-    margin: auto;
+    padding-top: 30px;
   }
 }

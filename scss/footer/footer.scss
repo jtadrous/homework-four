@@ -1,6 +1,6 @@
 footer {
   max-width: 1280px;
-  min-height: 100px;
+  height: auto;
   margin: 0 auto;
   background-color: $site-blue;
   color: $white;
@@ -23,11 +23,10 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1060px) {
+/*@media only screen and (max-width: 1060px) {
   footer {
     width: 100%;
-    height: auto;
     padding-left: 0px;
     padding-right: 0px;
   }
-}
+}*/
