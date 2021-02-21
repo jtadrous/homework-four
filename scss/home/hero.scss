@@ -1,7 +1,6 @@
 /* styling for the hero image at the top of the page */
 .hero {
-  max-width: 1280px;
-  //min-width: 800px;
+  width: 1280px;
   height: 500px;
   margin: 0 auto; /* only works if you have a width defined */
   background-image: linear-gradient(to right, $overlay-black, $overlay-black),

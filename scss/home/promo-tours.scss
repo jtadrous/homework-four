@@ -67,8 +67,9 @@
   }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 900px) {
   .promo-tours {
+    background-color: lightcoral;
     width: 800px;
     height: auto;
     display: flex;
@@ -79,6 +80,7 @@
     .promo2,
     .promo3 {
       margin-bottom: 30px;
+      background-color: lightseagreen;
     }
   }
 }

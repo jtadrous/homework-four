@@ -41,7 +41,7 @@ p {
 }
 /* styling for the hero image at the top of the page */
 .hero {
-  max-width: 1280px;
+  width: 1280px;
   height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
@@ -142,8 +142,9 @@ p {
   background-size: cover;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 900px) {
   .promo-tours {
+    background-color: lightcoral;
     width: 800px;
     height: auto;
     display: flex;
@@ -154,6 +155,7 @@ p {
 .promo-tours .promo2,
 .promo-tours .promo3 {
     margin-bottom: 30px;
+    background-color: lightseagreen;
   }
 }
 footer {
