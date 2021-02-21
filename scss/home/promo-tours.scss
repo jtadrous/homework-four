@@ -69,18 +69,17 @@
 
 @media only screen and (max-width: 900px) {
   .promo-tours {
-    background-color: lightcoral;
     width: 800px;
     height: auto;
     display: flex;
     flex-direction: column;
     margin: -50px auto 0 auto;
+    padding-left: 280px;
 
     .promo1,
     .promo2,
     .promo3 {
       margin-bottom: 30px;
-      background-color: lightseagreen;
     }
   }
 }
