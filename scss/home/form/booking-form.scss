@@ -74,6 +74,7 @@
 @media only screen and (max-width: 1060px) {
   .booking-form {
     //min-width: 700px;
+    min-width: 650px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,16 +90,10 @@
       display: inline;
     }
 
-    label::after,
-    #name::after,
-    #country::after,
-    #email::after,
-    #hotel::after,
-    #checkin::after,
-    #checkout::after {
+    /*label::after {
       content: "\a";
       white-space: pre;
-    }
+    }*/
 
     .one,
     .two,

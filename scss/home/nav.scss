@@ -1,6 +1,7 @@
 /* styling for the nav bar at the top of the page */
 nav {
-  max-width: 980px;
+  //max-width: 980px;
+  width: 80%;
   height: auto;
   margin: 0 auto;
   border-bottom: $white solid 2px;
@@ -37,11 +38,9 @@ nav {
 
 @media only screen and (max-width: 1060px) {
   nav {
-    width: 90%;
+    min-width: 650px;
     height: auto;
     flex-wrap: nowrap;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 30px;
+    padding: 30px;
   }
 }

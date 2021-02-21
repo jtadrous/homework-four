@@ -42,6 +42,7 @@ p {
 /* styling for the hero image at the top of the page */
 .hero {
   width: 100%;
+  min-width: 650px;
   max-height: 550px;
   min-height: 500px;
   margin: 0 auto;
@@ -80,14 +81,12 @@ p {
 
 /* styling for the promo tours cards */
 .promo-tours {
-  width: 100%;
+  width: 70%;
   height: 304px;
   margin: -50px auto 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-left: 200px;
-  padding-right: 200px;
   text-align: center;
   color: #fff;
 }
@@ -140,6 +139,7 @@ p {
 @media only screen and (max-width: 900px) {
   .promo-tours {
     width: 100%;
+    min-width: 650px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -154,6 +154,7 @@ p {
 }
 footer {
   width: 100%;
+  min-width: 650px;
   min-height: 100px;
   margin: 0 auto;
   background-color: #79addc;
@@ -240,11 +241,16 @@ footer .icons {
 
 @media only screen and (max-width: 1060px) {
   .booking-form {
+    min-width: 650px;
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
+    /*label::after {
+      content: "\a";
+      white-space: pre;
+    }*/
   }
   .booking-form form {
     display: flex;
@@ -252,16 +258,6 @@ footer .icons {
   }
   .booking-form label {
     display: inline;
-  }
-  .booking-form label::after,
-.booking-form #name::after,
-.booking-form #country::after,
-.booking-form #email::after,
-.booking-form #hotel::after,
-.booking-form #checkin::after,
-.booking-form #checkout::after {
-    content: "\a";
-    white-space: pre;
   }
   .booking-form .one,
 .booking-form .two,
@@ -283,7 +279,7 @@ footer .icons {
 }
 /* styling for the nav bar at the top of the page */
 nav {
-  max-width: 980px;
+  width: 80%;
   height: auto;
   margin: 0 auto;
   border-bottom: #fff solid 2px;
@@ -316,11 +312,9 @@ nav .links #last {
 
 @media only screen and (max-width: 1060px) {
   nav {
-    width: 90%;
+    min-width: 650px;
     height: auto;
     flex-wrap: nowrap;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 30px;
+    padding: 30px;
   }
 }

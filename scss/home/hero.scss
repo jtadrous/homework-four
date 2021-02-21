@@ -1,6 +1,7 @@
 /* styling for the hero image at the top of the page */
 .hero {
   width: 100%;
+  min-width: 650px;
   max-height: 550px;
   min-height: 500px;
   margin: 0 auto; /* only works if you have a width defined */
