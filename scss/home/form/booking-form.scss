@@ -89,7 +89,13 @@
       display: inline;
     }
 
-    label::after {
+    label::after,
+    #name::after,
+    #country::after,
+    #email::after,
+    #hotel::after,
+    #checkin::after,
+    #checkout::after {
       content: "\a";
       white-space: pre;
     }
