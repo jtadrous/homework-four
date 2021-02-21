@@ -42,7 +42,8 @@ p {
 /* styling for the hero image at the top of the page */
 .hero {
   max-width: 1280px;
-  height: 500px;
+  min-width: 800px;
+  min-height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
@@ -77,14 +78,14 @@ p {
   font-family: Gill Sans Regular;
 }
 
-@media only screen and (max-width: 1060px) {
+/*@media only screen and (max-width: 1060px) {
   .hero {
     min-width: 800px;
     min-height: 550px;
     margin: auto;
     padding: 0;
   }
-}
+}*/
 /* styling for the promo tours cards */
 .promo-tours {
   width: 1280px;
@@ -148,6 +149,9 @@ p {
     width: 100%;
     height: auto;
     flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .promo-tours .promo1,
 .promo-tours .promo2,
