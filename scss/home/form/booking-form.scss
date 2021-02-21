@@ -73,8 +73,6 @@
 
 @media only screen and (max-width: 1060px) {
   .booking-form {
-    width: max-content;
-    //height: auto;
     display: flex;
     flex-direction: column;
     padding-left: 0px;
@@ -96,7 +94,6 @@
     .five {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       margin-bottom: 20px;
     }
 
@@ -106,7 +103,7 @@
     #hotel,
     #checkin,
     #checkout {
-      width: 100%;
+      max-width: 100%;
     }
   }
 }
