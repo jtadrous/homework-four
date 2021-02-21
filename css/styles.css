@@ -42,7 +42,6 @@ p {
 /* styling for the hero image at the top of the page */
 .hero {
   max-width: 1280px;
-  min-width: 800px;
   min-height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
