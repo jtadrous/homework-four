@@ -1,7 +1,8 @@
 /* styling for the hero image at the top of the page */
 .hero {
-  max-width: 1280px;
-  height: 500px;
+  width: 100%;
+  max-height: 550px;
+  min-height: 500px;
   margin: 0 auto; /* only works if you have a width defined */
   background-image: linear-gradient(to right, $overlay-black, $overlay-black),
     url(../images/hero.jpg);
@@ -37,12 +38,5 @@
       margin-top: 25px;
       font-family: Gill Sans Regular;
     }
-  }
-}
-
-@media only screen and (max-width: 1060px) {
-  .hero {
-    min-width: 800px;
-    min-height: 550px;
   }
 }
