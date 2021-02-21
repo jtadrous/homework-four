@@ -79,9 +79,8 @@ p {
 
 @media only screen and (max-width: 1060px) {
   .hero {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: -webkit-max-content;
+    width: max-content;
     min-height: 550px;
   }
 }
@@ -146,9 +145,8 @@ p {
 
 @media only screen and (max-width: 1060px) {
   .promo-tours {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: -webkit-max-content;
+    width: max-content;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -184,9 +182,8 @@ footer .icons {
 
 @media only screen and (max-width: 1060px) {
   footer {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: -webkit-max-content;
+    width: max-content;
     height: auto;
     padding-left: 0px;
     padding-right: 0px;
@@ -258,9 +255,8 @@ footer .icons {
 
 @media only screen and (max-width: 1060px) {
   .booking-form {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: -webkit-max-content;
+    width: max-content;
     display: flex;
     flex-direction: column;
     padding-left: 0px;
