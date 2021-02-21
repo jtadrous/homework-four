@@ -253,7 +253,13 @@ footer .icons {
   .booking-form label {
     display: inline;
   }
-  .booking-form label::after {
+  .booking-form label::after,
+.booking-form #name::after,
+.booking-form #country::after,
+.booking-form #email::after,
+.booking-form #hotel::after,
+.booking-form #checkin::after,
+.booking-form #checkout::after {
     content: "\a";
     white-space: pre;
   }
