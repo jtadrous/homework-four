@@ -73,11 +73,16 @@
 
 @media only screen and (max-width: 1060px) {
   .booking-form {
-    width: 70%;
+    min-width: 700px;
     display: flex;
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
 
     label {
       display: inline;
@@ -104,7 +109,7 @@
     #hotel,
     #checkin,
     #checkout {
-      width: 100%;
+      width: 70%;
     }
   }
 }
