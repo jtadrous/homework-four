@@ -69,11 +69,15 @@
 
 @media only screen and (max-width: 1060px) {
   .promo-tours {
-    width: 236px;
+    width: 100%;
     height: auto;
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    justify-content: center;
 
     .promo1,
     .promo2,
