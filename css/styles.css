@@ -261,6 +261,31 @@ footer .icons {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .booking-form label {
+    display: inline;
+  }
+  .booking-form label::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .booking-form .one,
+.booking-form .two,
+.booking-form .three,
+.booking-form .four,
+.booking-form .five {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .booking-form #name,
+.booking-form #country,
+.booking-form #email,
+.booking-form #hotel,
+.booking-form #checkin,
+.booking-form #checkout {
+    width: 100%;
+  }
 }
 /* styling for the nav bar at the top of the page */
 nav {

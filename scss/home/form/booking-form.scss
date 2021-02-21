@@ -78,5 +78,34 @@
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
+
+    label {
+      display: inline;
+    }
+
+    label::after {
+      content: "\a";
+      white-space: pre;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    #name,
+    #country,
+    #email,
+    #hotel,
+    #checkin,
+    #checkout {
+      width: 100%;
+    }
   }
 }
