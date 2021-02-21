@@ -1,11 +1,11 @@
 /* styling for the promo tours cards */
 .promo-tours {
-  width: 70%;
+  width: 65%;
   height: 304px;
   margin: -50px auto 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   //padding-left: 200px;
   //padding-right: 200px;
   text-align: center;
@@ -67,7 +67,7 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1060px) {
   .promo-tours {
     width: 100%;
     min-width: 650px;

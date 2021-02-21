@@ -1,5 +1,6 @@
 .booking-form {
-  max-width: 825px;
+  //max-width: 825px;
+  width: 65%;
   min-height: 1050px;
   margin: 0 auto;
 
@@ -88,11 +89,6 @@
       display: inline;
     }
 
-    /*label::after {
-      content: "\a";
-      white-space: pre;
-    }*/
-
     .one,
     .two,
     .three,
@@ -110,6 +106,8 @@
     #checkin,
     #checkout {
       width: 70%;
+      break-after: column;
+      display: block;
     }
   }
 }

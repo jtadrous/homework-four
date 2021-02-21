@@ -80,12 +80,12 @@ p {
 
 /* styling for the promo tours cards */
 .promo-tours {
-  width: 70%;
+  width: 65%;
   height: 304px;
   margin: -50px auto 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   color: #fff;
 }
@@ -135,7 +135,7 @@ p {
   background-size: cover;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1060px) {
   .promo-tours {
     width: 100%;
     min-width: 650px;
@@ -176,7 +176,7 @@ footer .icons {
 }
 
 .booking-form {
-  max-width: 825px;
+  width: 65%;
   min-height: 1050px;
   margin: 0 auto;
 }
@@ -246,10 +246,6 @@ footer .icons {
     flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
-    /*label::after {
-      content: "\a";
-      white-space: pre;
-    }*/
   }
   .booking-form form {
     display: flex;
@@ -274,6 +270,8 @@ footer .icons {
 .booking-form #checkin,
 .booking-form #checkout {
     width: 70%;
+    break-after: column;
+    display: block;
   }
 }
 /* styling for the nav bar at the top of the page */
