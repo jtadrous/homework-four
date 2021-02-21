@@ -41,8 +41,8 @@ p {
 }
 /* styling for the hero image at the top of the page */
 .hero {
-  max-width: 1280px;
-  min-height: 500px;
+  width: 1280px;
+  height: 500px;
   margin: 0 auto;
   /* only works if you have a width defined */
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
@@ -79,7 +79,8 @@ p {
 
 @media only screen and (max-width: 900px) {
   .hero {
-    min-width: 800px;
+    width: -webkit-max-content;
+    width: max-content;
     min-height: 550px;
   }
 }
